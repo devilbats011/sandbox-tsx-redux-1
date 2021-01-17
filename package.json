@@ -19,6 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-slick": "^0.27.14",
+    "reselect": "^4.0.0",
     "slick-carousel": "^1.8.1",
     "typescript": "^4.1.3",
     "web-vitals": "^0.2.4"

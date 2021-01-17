@@ -1,0 +1,14 @@
+.sandboxx {
+    background-color: #111;
+    height: 99vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+    & > h1 {
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 2.5;
+        font-size: 31px;
+    }
+}
