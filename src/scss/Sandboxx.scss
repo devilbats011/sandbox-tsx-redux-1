@@ -1,14 +1,52 @@
 .sandboxx {
-    background-color: #111;
-    height: 99vh;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f1f1f1;
-    & > h1 {
-        font-weight: bold;
-        letter-spacing: 1px;
-        line-height: 2.5;
-        font-size: 31px;
+  background-color: #111;
+  min-height: 99vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  & .sandbox-btn {
+      color: black;
+      padding-left: .8rem;
+      padding-right: .8rem;
+  }
+  & * {
+    color: #ffffff;
+  }
+  & img {
+    height: 50px;
+  }
+  & > h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 2.5;
+    font-size: 31px;
+  }
+
+}
+
+.table {
+  width: 66% !important;
+  margin: 0 auto;
+  & th,td {
+    border: 1px solid #b56 !important;
+  }
+  &-item {
+    &:nth-of-type(n + 2) {
+      line-height: 3;
     }
+  }
+}
+.MuiExtra
+{
+
+    width: fit-content;
+    margin: auto;
+}
+.MuiPaginationItem-root
+{
+    color: wheat !important;
+}
+.MuiPaginationItem-outlinedPrimary.Mui-selected
+{
+    color: #3f51b5 !important;
 }
