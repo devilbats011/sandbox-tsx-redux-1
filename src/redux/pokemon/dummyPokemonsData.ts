@@ -1,31 +1,31 @@
 const Lilligant = {
   name: "Lilligant",
-  type: ["Grass"],
+  type: "Grass",
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/549.png",
 };
 const Charizard = {
   name: "Charizard",
-  type: ["Fire", "Flying"],
+  type: "Fire|Flying",
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
 };
 const Bulbasaur = {
   name: "Bulbasaur",
-  type: ["Grass", "Poison"],
+  type: "Grass|Poison",
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
 };
 const Blastoise = {
   name: "Bulbasaur",
-  type: ["water"],
+  type: "water",
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
 };
 const Shellos = {
   name: "Shellos",
-  type: ["water"],
+  type: "water",
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/422.png",
 };
 const Kyurem = {
   name: "Kyurem",
-  type: ["dragon" , "ice"],
+  type: "dragon|ice",
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/646.png",
 };
 
