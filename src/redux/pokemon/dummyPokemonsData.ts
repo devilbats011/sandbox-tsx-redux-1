@@ -29,25 +29,25 @@ const Kyurem = {
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/646.png",
 };
 
-interface template  {
+export interface templatePokemon  {
   data:Array<any> ,
   total:number,
-  offset:number,
+  pack:number,
   count:number
 
 }
 
-const pokemon_6:template ={
+const pokemon_6:templatePokemon ={
  data: [Lilligant, Charizard, Bulbasaur, Blastoise, Shellos, Kyurem],
  total: 6,
- offset: 2,
+ pack: 2,
  count: (6/2)
 } 
 
-let pokemon_100:template = {
+let pokemon_100:templatePokemon = {
   data: [],
   total: 100,
-  offset: 10,
+  pack: 10,
   count: (100/10)
 }
 
