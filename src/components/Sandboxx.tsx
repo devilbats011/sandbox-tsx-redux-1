@@ -71,7 +71,6 @@ function Sandboxx(): ReactElement {
       <Table />
       <br />
       <br />
-      {/* <h1>Current Page: {page as number} </h1> */}
     </div>
   );
 }
